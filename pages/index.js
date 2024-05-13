@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import name from "@/composants/composants1"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
       <div className={styles.description}>
           <h1 className={styles.darkred}>
-            Noah studio
+            {name()} studio
           </h1>
           <div className={styles.flex}>
             <a href="/">Home</a>
@@ -31,7 +32,7 @@ export default function Home() {
             Hi
           </h2>
           <h2 className={styles.big}>
-            I'm <span className={styles.blue}>Noah</span>
+            I'm <span className={styles.blue}>{name()}</span>
           </h2>
           <h2 className={styles.big}>
             Web Developer
