@@ -17,7 +17,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
       <div className={styles.description}>
           <h1 className={styles.darkred}>
-            Nooman studio
+            Noah studio
           </h1>
           <div className={styles.flex}>
             <a href="/">Home</a>
@@ -31,7 +31,7 @@ export default function Home() {
             Hi
           </h2>
           <h2 className={styles.big}>
-            I'm <span className={styles.blue}>Nooman</span>
+            I'm <span className={styles.blue}>Noah</span>
           </h2>
           <h2 className={styles.big}>
             Web Developer
