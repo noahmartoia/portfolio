@@ -15,17 +15,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
-      <div className={styles.description}>
-          <h1 className={styles.darkred}>
-            {name()} studio
-          </h1>
-          <div className={styles.flex}>
-            <a href="/">Home</a>
-            <a href="/">About</a>
-            <a href="/">Contact</a>
-          </div>
-        </div>
         <div className={styles.description}>
           <div className={styles.margin}>
           <h2 className={styles.big}>
@@ -45,7 +34,6 @@ export default function Home() {
         <div>
           <a href="#" className={styles.contact}>Contact</a>
         </div>
-      </main>
     </>
   );
 }

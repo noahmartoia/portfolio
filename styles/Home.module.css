@@ -3,7 +3,7 @@
   flex-direction: column;
   
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
 }
 .darkred{
@@ -20,7 +20,7 @@
   color: white;
   border-radius: 0.5rem;
   position: absolute;
-  left: 5rem;
+  left: 2.5rem;
   padding: 0.8rem;
 }
 .margin{
